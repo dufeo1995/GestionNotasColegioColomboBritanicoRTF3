@@ -7,7 +7,8 @@ package Dominio;
 
 /**
  *
- * @author Duvan Otero
+ * @author Duvan Otero, yohana
+ * 
  */
 public class Curso {
     
