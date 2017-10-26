@@ -7,8 +7,23 @@ package dominio;
 
 /**
  *
- * @author Duvan Otero
+ * @author Duvan Otero LEIDY
  */
-public class Curso {
+public class Curso extends CursoDTO {
+     public void crear(CursoDTO curso){
+        
+    }
+    public void ingresarEst(dominio.persona.Estudiante estudiante){
+         this.getEstudiante().add(estudiante);
+        
+    }
+    public void eliminarEst(dominio.persona.Estudiante estudiante) {
+        this.getEstudiante().remove(estudiante);
+       
+        
+    }
+    public void asignarDocen (dominio.persona.Docente docente){
+        this.setDocente(docente);
+    }
     
 }

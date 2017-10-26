@@ -10,5 +10,25 @@ package dominio;
  * @author Duvan Otero
  */
 public class CursoDTO {
+    private int codigo;
+    private int grado;
+    private dominio.persona.Docente docente;
+    private List<dominio.persona.Estudiante> estudiante = new ArrayList<>();
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public int getGrado() {
+        return grado;
+    }
+
+    public void setGrado(int grado) {
+        this.grado = grado;
+    }
     
 }
